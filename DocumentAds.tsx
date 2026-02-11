@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { FileText, ExternalLink, ShieldCheck } from 'lucide-react';
-import { useContent } from '../App';
+import { useContent } from './App';
 import ThreeDCard from './ThreeDCard';
 
 const DocumentAds: React.FC = () => {

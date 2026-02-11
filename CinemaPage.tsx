@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { Film, Tv, Play, Star, Calendar, Clock, List, X, ArrowLeft } from 'lucide-react';
-import { useContent } from '../App';
-import ThreeDCard from '../components/ThreeDCard';
+import { useContent } from './App';
+import ThreeDCard from './ThreeDCard';
 
 const CinemaPage: React.FC = () => {
   const { t } = useContent();

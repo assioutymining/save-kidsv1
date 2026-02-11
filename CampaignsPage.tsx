@@ -2,8 +2,8 @@
 import React from 'react';
 import { Target, Flag, Rocket, ArrowLeft, CheckCircle2, AlertCircle, TrendingUp, Facebook, Youtube, Video as VideoIcon, Instagram, Share2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import ThreeDCard from '../components/ThreeDCard';
-import { useContent } from '../App';
+import ThreeDCard from './ThreeDCard';
+import { useContent } from './App';
 
 const CampaignsPage: React.FC = () => {
   const { t } = useContent();

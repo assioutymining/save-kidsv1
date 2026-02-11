@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { Send, CheckCircle2, Scale, Calculator, Loader2, Gavel, AlertTriangle, Printer, ArrowRight, Eye, X, FileText } from 'lucide-react';
-import ThreeDCard from '../components/ThreeDCard';
-import { useContent } from '../App';
+import ThreeDCard from './ThreeDCard';
+import { useContent } from './App';
 
 const governorates = [
   "القاهرة", "الجيزة", "الإسكندرية", "الدقهلية", "البحر الأحمر", "البحيرة", "الفيوم", "الغربية", 

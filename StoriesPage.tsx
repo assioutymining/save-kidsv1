@@ -2,8 +2,8 @@
 import React from 'react';
 import { Play, User, Calendar, Quote, MessageCircle, ArrowLeft, Heart } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import ThreeDCard from '../components/ThreeDCard';
-import { useContent } from '../App';
+import ThreeDCard from './ThreeDCard';
+import { useContent } from './App';
 
 const StoriesPage: React.FC = () => {
   const { t, showToast } = useContent();

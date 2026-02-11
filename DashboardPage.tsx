@@ -6,8 +6,8 @@ import {
   LineChart, Line, Legend
 } from 'recharts';
 import { Filter, Download, Info, TrendingUp, AlertCircle, Target, Users, Scale, Activity, Brain, CheckCircle2, PenTool } from 'lucide-react';
-import ThreeDCard from '../components/ThreeDCard';
-import { useContent } from '../App';
+import ThreeDCard from './ThreeDCard';
+import { useContent } from './App';
 import { Link } from 'react-router-dom';
 
 const COLORS = ['#dc2626', '#ef4444', '#b91c1c', '#7f1d1d', '#450a0a'];

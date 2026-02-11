@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Brain, Users, TrendingUp, Scale, CheckCircle2, Globe, ArrowDownRight } from 'lucide-react';
-import ThreeDCard from '../components/ThreeDCard';
-import { useContent } from '../App';
+import ThreeDCard from './ThreeDCard';
+import { useContent } from './App';
 
 const ComparisonBox = ({ label, current, proposed }: any) => (
   <ThreeDCard>

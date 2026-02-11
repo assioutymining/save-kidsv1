@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Gavel, FileText, Scale, MessageSquare, CheckCircle, ArrowLeft, HeartHandshake, ShieldAlert } from 'lucide-react';
-import ThreeDCard from '../components/ThreeDCard';
-import { useContent } from '../App';
+import ThreeDCard from './ThreeDCard';
+import { useContent } from './App';
 
 const FlowStep = ({ icon: Icon, title, description, isLast = false }: any) => (
   <div className="flex flex-col items-center text-center space-y-4 relative group">

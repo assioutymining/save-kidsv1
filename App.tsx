@@ -6,21 +6,21 @@ import {
   Home, Info, FileText, BarChart3, Users, MessageCircle, ShieldCheck, Scale, Settings, Menu, X, Video, 
   CheckCircle2, AlertCircle, Vote, PenTool, Rocket, Film
 } from 'lucide-react';
-import HomePage from './pages/HomePage';
-import WhyChangePage from './pages/WhyChangePage';
-import PetitionPage from './pages/PetitionPage';
-import CampaignsPage from './pages/CampaignsPage';
-import CinemaPage from './pages/CinemaPage';
-import AuthorizationPage from './pages/AuthorizationPage';
-import DashboardPage from './pages/DashboardPage';
-import StoriesPage from './pages/StoriesPage';
-import StoryDetailPage from './pages/StoryDetailPage';
-import SupportPage from './pages/SupportPage';
-import AboutPage from './pages/AboutPage';
-import PrivacyPage from './pages/PrivacyPage';
-import AdminPage from './pages/AdminPage';
-import MediaPage from './pages/MediaPage';
-import PollsPage from './pages/PollsPage';
+import HomePage from './HomePage';
+import WhyChangePage from './WhyChangePage';
+import PetitionPage from './PetitionPage';
+import CampaignsPage from './CampaignsPage';
+import CinemaPage from './CinemaPage';
+import AuthorizationPage from './AuthorizationPage';
+import DashboardPage from './DashboardPage';
+import StoriesPage from './StoriesPage';
+import StoryDetailPage from './StoryDetailPage';
+import SupportPage from './SupportPage';
+import AboutPage from './AboutPage';
+import PrivacyPage from './PrivacyPage';
+import AdminPage from './AdminPage';
+import MediaPage from './MediaPage';
+import PollsPage from './PollsPage';
 import { defaultTranslations } from './translations';
 
 const ContentContext = createContext<any>(undefined);

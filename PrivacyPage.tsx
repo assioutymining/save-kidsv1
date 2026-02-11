@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Lock, EyeOff, ShieldCheck, Info } from 'lucide-react';
-import { useContent } from '../App';
+import { useContent } from './App';
 
 const PrivacyPage: React.FC = () => {
   const { t } = useContent();

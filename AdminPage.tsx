@@ -5,8 +5,8 @@ import {
   Users, ShieldCheck, Plus, Trash2, Gavel, Settings, EyeOff, FileText, Activity, BarChart3, Globe, Brain, List, Calendar, MapPin, CheckCircle, Vote, Database, Share2,
   ThumbsUp, ThumbsDown, MessageSquare, Heart, AlertTriangle, Monitor, Image as ImageIcon, Type, Layers, Box, Terminal, Download, Inbox, PenTool, Rocket, Target, RotateCcw, Film, Tv
 } from 'lucide-react';
-import { useContent } from '../App';
-import ThreeDCard from '../components/ThreeDCard';
+import { useContent } from './App';
+import ThreeDCard from './ThreeDCard';
 
 // Shared Input Component for CMS
 const AdminInput = ({ label, value, onChange, type = "text", placeholder = "" }: any) => (

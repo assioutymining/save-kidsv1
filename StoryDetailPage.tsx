@@ -2,8 +2,8 @@
 import React, { useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowRight, Calendar, User, Share2, Heart, MessageCircle, PlayCircle, ShieldAlert } from 'lucide-react';
-import { useContent } from '../App';
-import ThreeDCard from '../components/ThreeDCard';
+import { useContent } from './App';
+import ThreeDCard from './ThreeDCard';
 
 const StoryDetailPage: React.FC = () => {
   const { id } = useParams();

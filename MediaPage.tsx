@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { Play, Share2, Heart, X, Film, Video as VideoIcon, Mic2 } from 'lucide-react';
-import ThreeDCard from '../components/ThreeDCard';
-import { useContent } from '../App';
+import ThreeDCard from './ThreeDCard';
+import { useContent } from './App';
 
 const MediaPage: React.FC = () => {
   const { t } = useContent();

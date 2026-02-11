@@ -3,9 +3,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import * as LucideIcons from 'lucide-react';
 import { Play, ShieldCheck, Video as VideoIcon, X, Volume2, VolumeX, Info, AlertTriangle, ArrowLeft, Brain, BookOpen, Quote } from 'lucide-react';
-import ThreeDCard from '../components/ThreeDCard';
-import DocumentAds from '../components/DocumentAds';
-import { useContent } from '../App';
+import ThreeDCard from './ThreeDCard';
+import DocumentAds from './DocumentAds';
+import { useContent } from './App';
 
 const RotatingMessage = ({ messages }: { messages: string[] }) => {
   const [index, setIndex] = useState(0);

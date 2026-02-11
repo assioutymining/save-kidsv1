@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { ThumbsUp, ThumbsDown, CheckCircle2, Globe, ShieldCheck, Loader2 } from 'lucide-react';
-import ThreeDCard from '../components/ThreeDCard';
-import { useContent } from '../App';
+import ThreeDCard from './ThreeDCard';
+import { useContent } from './App';
 
 const PollsPage: React.FC = () => {
   const { t, showToast } = useContent();

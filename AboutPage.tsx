@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Heart, ShieldCheck, Scale, Users } from 'lucide-react';
-import ThreeDCard from '../components/ThreeDCard';
-import { useContent } from '../App';
+import ThreeDCard from './ThreeDCard';
+import { useContent } from './App';
 
 const AboutPage: React.FC = () => {
   const { t } = useContent();
